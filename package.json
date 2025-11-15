@@ -1,15 +1,16 @@
 {
-  "name": "radiojobsvip",
-  "homepage": "https://weltonabravanel.github.io/radiojobsvip",
-  "private": true,
+  
+  
+  "name": "nome-do-seu-projeto",
+  "homepage": "https://weltonabravanel.github.io/radiojobsvip", 
   "version": "0.0.0",
-  "type": "module",
+  // ... outras propriedades
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build", 
     "deploy": "gh-pages -d dist"
     
   },
